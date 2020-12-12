@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+
+.background {
+  background-image: url("../image/banner.jpg");
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  color: white;
+}
+
+.content {
+  position: absolute;
+  top: 40%;
+}
+
+.typed {
+  font-weight: 700;
+  color: crimson;
+}
+
+/* about */
+#about {
+  padding: 100px;
+}
+
+.title {
+  font-weight: 800;
+}
+
+.sosmed a.link {
+  display: inline-block;
+  background: crimson;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 2px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid rgb(255, 255, 255);
+  transition: all 0.3s ease;
+}
+
+.sosmed a.link:hover {
+  color: crimson;
+  background: white;
+}
+
+.linkedin {
+  background-image: url("../image/icon/linkedin.svg");
+  width: 25px;
+  height: 25px;
+}
+
+.linkedin:hover {
+  background-image: url("../image/icon/linkedin-hover.svg");
+  width: 25px;
+  height: 25px;
+}
+
+.twitter {
+  background-image: url("../image/icon/twitter.svg");
+  width: 25px;
+  height: 25px;
+}
+
+.twitter:hover {
+  background-image: url("../image/icon/twitter-hover.svg");
+  width: 25px;
+  height: 25px;
+}
+
+.facebook {
+  background-image: url("../image/icon/facebook.svg");
+  width: 25px;
+  height: 25px;
+}
+
+.facebook:hover {
+  background-image: url("../image/icon/facebook-hover.svg");
+  width: 25px;
+  height: 25px;
+}
+
+.instagram {
+  background-image: url("../image/icon/instagram.svg");
+  width: 25px;
+  height: 25px;
+}
+
+.instagram:hover {
+  background-image: url("../image/icon/instagram-hover.svg");
+  width: 25px;
+  height: 25px;
+}
+
+/* skill */
+#skill {
+  padding: 100px;
+}
+
+.list-group {
+  color: crimson;
+}
+
+.red {
+  background-color: crimson;
+  color: white;
+}
+
+/* portofolio */
+
+#portofolio {
+  position: relative;
+  height: min-content;
+  padding-top: 100px;
+}
+
+.box {
+  border-radius: 30px;
+  color: white;
+  background-color: #1c2227;
+  padding-top: 20px;
+  height: min-content;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  min-height: 350px !important;
+}
+
+footer {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
